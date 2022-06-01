@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>rm</title>
+</head>
+<body>
+    <div class="container-fluid p-2 bg-primary text-white text-center">
+        <h1>Users</h1>
+    </div>
+        <div class="container mt-5">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Superhost</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+
+                 
+                {% for data in data %}
+
+
+                    <tr>
+                        <td>{{ d.price }}</td>
+                        <td>{{ d.name }}</td>
+                        <td>{{ results.username }}</td>
+                        <td>{{ data.user.email }}</td>
+                        <td>{{ data.user.superhost }}</td>
+                    </tr>
+
+                {% endfor %}
+                    
+                        
+                    
+
+                       
+                </tbody>
+            </table>
+       </div>
+<br><br><br><br>
+{{ data }}
+</body>
+</html>
